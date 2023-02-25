@@ -2,8 +2,7 @@ const fs = require("fs");
 const path = require('path');
 const inquirer = require("inquirer");
 const generateMarkdown = require("./utils/generateMarkdown");
-const { default: Choices } = require("inquirer/lib/objects/choices");
-
+const { default: Choices } = require("/Users/markbaldry/Desktop/readme-generator/node_modules/inquirer/lib/objects/choices");
 // array of questions for user
 const questions = [
     {
@@ -30,7 +29,7 @@ const questions = [
         type: 'list',
         name: 'license',
         message: 'What kind of license?🔐',
-        choices: ["MIT", "APACHE 2.O", "GPL", "NONE"]
+        choices: ["MIT", "APACHE2.O", "GPL", "NONE"]
     },
     {
         type: 'input',
@@ -65,7 +64,7 @@ function writeToFile(fileName, data) {
 function init() {
     inquirer.prompt(questions).then((response) => {
         console.log('Generating README...');
-        writeToFile('READMEa.md', generateMarkdown({...response}))
+        writeToFile('README.md', generateMarkdown({...response}))
     })
     
 }
