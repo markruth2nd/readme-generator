@@ -30,7 +30,7 @@ const questions = [
         type: 'list',
         name: 'license',
         message: 'What kind of license?🔐',
-        Choices: ["MIT", "APACHE 2.O", "GPL", "NONE"]
+        choices: ["MIT", "APACHE 2.O", "GPL", "NONE"]
     },
     {
         type: 'input',
@@ -53,7 +53,7 @@ const questions = [
         type: 'input',
         name: 'contributing',
         message: 'What does the user need to know about contributing to the repo?🗒',
-    },
+    }
 ];
 
 // function to write README file
