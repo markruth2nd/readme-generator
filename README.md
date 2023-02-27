@@ -1,10 +1,10 @@
-# ${renderLicenseBadge(data.license)}
-  ![Github license] (https://img.shields.io/badge/license-GPL-blue.svg)
+# ReadMe Generator
+  ![Github license] (https://img.shields.io/badge/license-MIT-blue.svg)
 
 
   ### Description
 
-    ${renderLicenseBadge(data.license)}
+    This projects intension is to create a ReadMe generator for furture  projects  and have projects ready to be shared in GitHub. The purpose of this challenge is to use Node.js & ES6."
 
     ### Table of contents
 
@@ -29,15 +29,15 @@
 
     ##Usage
 
-    ${renderLicenseBadge(data.license)}
+    This is a first attempt at creating a ReadMe generator and using ES6 & Node.js
 
     ## License
 
-    This project is licensed using GPL license.
+    This project is licensed using MIT license.
 
     ## Contrbuting
 
-    ${renderLicenseBadge(data.license)}
+    They can contribute if they wish to do so
 
     ##Tests
     To test this ReadMe Generator, run the following command:
@@ -48,7 +48,7 @@
 
     ###Questions
 
-    If you have any questions regarding this repo, open an issue or contact me directly at [${renderLicenseBadge(data.license)}].
+    If you have any questions regarding this repo, open an issue or contact me directly at [markruth2nd@ymail.com].
 
-    You can find more of my work at ${renderLicenseBadge(data.license)} (https://github.com/${renderLicenseBadge(data.license)}).
+    You can find more of my work at markruth2nd (https://github.com/markruth2nd).
 
