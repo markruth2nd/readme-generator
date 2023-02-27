@@ -1,10 +1,10 @@
-# undefined
-  [Github license] (https://img.shields.io/badge/license-MIT-blue.svg)
+# ${renderLicenseBadge(data.license)}
+  ![Github license] (https://img.shields.io/badge/license-GPL-blue.svg)
 
 
   ### Description
 
-    ## License
+    ${renderLicenseBadge(data.license)}
 
     ### Table of contents
 
@@ -22,18 +22,22 @@
 
     ##Installation
 
-    To installnecessary dependencies, run the following command:
+    To install necessary dependencies, run the following command:
     ```
-    undefined
+    npm i
+    ```
 
     ##Usage
 
-    ## License
+    ${renderLicenseBadge(data.license)}
 
     ## License
+
+    This project is licensed using GPL license.
+
     ## Contrbuting
 
-    ## License
+    ${renderLicenseBadge(data.license)}
 
     ##Tests
     To test this ReadMe Generator, run the following command:
@@ -44,7 +48,7 @@
 
     ###Questions
 
-    If you have any questions regarding this repo, open an issue or contact me directly at undefined.
+    If you have any questions regarding this repo, open an issue or contact me directly at [${renderLicenseBadge(data.license)}].
 
-    You can find more of my work at [undefined] (https://github.com/undefined).
+    You can find more of my work at ${renderLicenseBadge(data.license)} (https://github.com/${renderLicenseBadge(data.license)}).
 

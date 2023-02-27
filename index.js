@@ -7,17 +7,17 @@ const { default: Choices } = require("/Users/markbaldry/Desktop/readme-generator
 const questions = [
     {
         type: 'input',
-        name: 'GitHub',
+        name: 'github',
         message: 'What is you GitHub username?🐙'
     },
     {
         type: 'input',
-        name: 'Email',
+        name: 'email',
         message: 'What is you email address?📧'
     },
     {
         type: 'input',
-        name: 'Title',
+        name: 'title',
         message: "What is your Project's name? 📂"
     },
     {
@@ -33,7 +33,7 @@ const questions = [
     },
     {
         type: 'input',
-        name: 'INSTALLATION',
+        name: 'installation',
         message: 'What command should be run to installed dependencies?💾',
         default: 'npm i'
     },

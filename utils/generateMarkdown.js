@@ -1,15 +1,15 @@
 // function to generate markdown for README
-const renderLicenseBadge =(license) => {
+const renderLicenseBadge=(license) => {
   if(license !== "none")
 {
-  return `[Github license] (https://img.shields.io/badge/license-${license}-blue.svg)`;
+  return `![Github license] (https://img.shields.io/badge/license-${license}-blue.svg)`;
 }
 return ''
 }
 
 const renderLicenseLink = (license) => {
   if (license !== "None") {
-    return `* [license] (#license)\n`
+    return '* [license] (#license)\n'
   }
   return ''
 }
@@ -39,16 +39,17 @@ function generateMarkdown(data) {
 
     ##Installation
 
-    To installnecessary dependencies, run the following command:
+    To install necessary dependencies, run the following command:
     \`\`\`
     ${data.installation}
+    \`\`\`
 
     ##Usage
 
     ${data.usage}
 
     ## License
-    
+
     This project is licensed using ${data.license} license.
 
     ## Contrbuting
@@ -64,9 +65,9 @@ function generateMarkdown(data) {
 
     ###Questions
 
-    If you have any questions regarding this repo, open an issue or contact me directly at ${data.email}.
+    If you have any questions regarding this repo, open an issue or contact me directly at [${data.email}].
 
-    You can find more of my work at [${data.github}] (https://github.com/${data.github}).
+    You can find more of my work at ${data.github} (https://github.com/${data.github}).
 
 `;
 }
