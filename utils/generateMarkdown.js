@@ -24,7 +24,11 @@ function generateMarkdown(data) {
 
     ${data.description}
 
+    ## LINK TO VIDEO
+
+
     ### Table of contents
+    --- links needed here. ---
 
     *[Installation] (#Installation)
 
@@ -69,6 +73,14 @@ function generateMarkdown(data) {
 
     You can find more of my work at ${data.github} (https://github.com/${data.github}).
 
+
+    ## Credits
+
+    ## Badges
+
+    ## Features
+
+    ##SCREENSHOTS
 `;
 }
 
