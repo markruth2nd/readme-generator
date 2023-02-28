@@ -28,7 +28,8 @@ function generateMarkdown(data) {
 
 
     ### Table of contents
-    --- links needed here. ---
+    GitHub Link: ${data.githublink}
+    Video Description Link: ${data.githublink}
 
     *[Installation] (#Installation)
 

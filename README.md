@@ -4,9 +4,14 @@
 
   ### Description
 
-    This projects intension is to create a ReadMe generator for furture  projects  and have projects ready to be shared in GitHub. The purpose of this challenge is to use Node.js & ES6."
+    ReadMe Generator
+
+    ## LINK TO VIDEO
+
 
     ### Table of contents
+    GitHub Link: www.link.co.uk
+    Video Description Link: www.link.co.uk
 
     *[Installation] (#Installation)
 
@@ -29,7 +34,7 @@
 
     ##Usage
 
-    This is a first attempt at creating a ReadMe generator and using ES6 & Node.js
+    ReadMe Generator
 
     ## License
 
@@ -37,7 +42,7 @@
 
     ## Contrbuting
 
-    They can contribute if they wish to do so
+    ReadMe Generator
 
     ##Tests
     To test this ReadMe Generator, run the following command:
@@ -52,3 +57,11 @@
 
     You can find more of my work at markruth2nd (https://github.com/markruth2nd).
 
+
+    ## Credits
+
+    ## Badges
+
+    ## Features
+
+    ##SCREENSHOTS

@@ -12,6 +12,16 @@ const questions = [
     },
     {
         type: 'input',
+        name: 'githublink',
+        message: 'What is the GitHub link to your project?'
+    },
+    {
+        type: 'input',
+        name: 'videolink',
+        message: 'What is the link to your project video description?'
+    },
+    {
+        type: 'input',
         name: 'email',
         message: 'What is you email address?📧'
     },
