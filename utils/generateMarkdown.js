@@ -2,7 +2,7 @@
 const renderLicenseBadge=(license) => {
   if(license !== "none")
 {
-  return `![Github license] (https://img.shields.io/badge/license-${license}-blue.svg)`;
+  return `![Github license (https://img.shields.io/badge/license-${license}-blue.svg)]`;
 }
 return ''
 }
@@ -28,8 +28,8 @@ function generateMarkdown(data) {
 
 
     ### Table of contents
-    GitHub Link: ${data.githublink}
-    Video Description Link: ${data.githublink}
+    GitHub Link: [${data.githublink}]
+    Video Description Link: [${data.videolink}]
 
     *[Installation] (#Installation)
 

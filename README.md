@@ -1,5 +1,5 @@
 # ReadMe Generator
-  ![Github license] (https://img.shields.io/badge/license-MIT-blue.svg)
+  ![Github license (https://img.shields.io/badge/license-MIT-blue.svg)]
 
 
   ### Description
@@ -10,8 +10,8 @@
 
 
     ### Table of contents
-    GitHub Link: www.link.co.uk
-    Video Description Link: www.link.co.uk
+    GitHub Link: [https://github.com/markruth2nd/readme-generator]
+    Video Description Link: [https://drive.google.com/file/d/1rvUFJGx0kRavCDJgR6edL2hE-xgtXo1w/view]
 
     *[Installation] (#Installation)
 
